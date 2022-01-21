@@ -9,7 +9,7 @@
 plugins {
     // Apply the java-library plugin for API and implementation separation.
     `java-library`
-    id("org.jetbrains.kotlin.jvm") version "1.3.21"
+    id("org.jetbrains.kotlin.jvm") version "1.6.10"
 }
 
 repositories {
@@ -18,5 +18,6 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.21")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.10")
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
 }
